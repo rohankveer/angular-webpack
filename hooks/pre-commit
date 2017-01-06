@@ -17,7 +17,7 @@ fi
 
 # check file with jshint
 
-if jshint public/js/bundle.js
+if jshint app/app.js
 then
     echo No js errors. Good to go ahead.
 else
