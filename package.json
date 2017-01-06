@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "ln -s -f ../../hooks/pre-commit .git/hooks/pre-commit",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --progress --hot",
     "build": "webpack --progress --colors"
